@@ -1,4 +1,4 @@
-// src/components/AnalysisCompletePopup/AnalysisCompletePopup.jsx
+
 import React from "react";
 import "./AnalysisCompletePopup.css";
 

@@ -7,11 +7,11 @@ import AnalyzingPopup from "../AnalyzingPopup/AnalyzingPopup";
 import AnalysisCompletePopup from "../AnalysisCompletePopup/AnalysisCompletePopup";
 
 const SetWeightsPopup = ({ portfolioName, selectedStocks, onClose, onSubmit }) => {
-  // Initialize weights with default value 0 for each stock
+  
   const [weights, setWeights] = useState(() => {
     const initWeights = {};
     selectedStocks.forEach(stock => {
-      initWeights[stock] = 0; // Ensure no undefined value here
+      initWeights[stock] = 0; 
     });
     return initWeights;
   });

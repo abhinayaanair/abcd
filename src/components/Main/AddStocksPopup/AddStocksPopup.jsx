@@ -7,7 +7,7 @@ const dummyStockList = [
   "NVDA", "NFLX", "META", "BABA", "JPM"
 ];
 
-const AddStocksPopup = ({ onClose, onSubmit, portfolioName }) => {  // <-- accept portfolioName
+const AddStocksPopup = ({ onClose, onSubmit, portfolioName }) => {  
   const [search, setSearch] = useState("");
   const [selectedStocks, setSelectedStocks] = useState([]);
   const [showWeightsPopup, setShowWeightsPopup] = useState(false);

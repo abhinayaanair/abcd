@@ -1,4 +1,4 @@
-// Main.jsx
+
 import React, { useEffect, useState } from "react";
 import "./Main.css";
 import { assets } from "../../assets/assets";
