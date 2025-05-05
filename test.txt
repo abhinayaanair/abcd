@@ -1,0 +1,111 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Hello! It looks like your message is empty.\n\nHow can I help you today? Is there something you'd like to ask, create, or discuss?"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 807,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1
+      }
+    ],
+    "thoughtsTokenCount": 773
+  },
+  "modelVersion": "gemini-2.5-pro-preview-03-25"
+}
+
+
+
+
+    {/* <div className="nav">
+        <p>Gemini</p>
+        <img className="profile-pic" src={assets.user_icon} alt="" />
+      </div> */}
+
+      {/* <div className="main-container">
+        {!showResult ? (
+          <>
+            <div className="greet">
+              <p>
+                <span>Hello, Abby</span>
+              </p>
+              <p>How can I assist you today?</p>
+            </div>
+            <div className="cards">
+              <div className="card">
+                <p>Suggest beautiful places to see on an upcoming road trip</p>
+                <img src={assets.compass_icon} alt="" />
+              </div>
+
+              <div className="card">
+                <p>Briefly summarize this concept: urban planning</p>
+                <img src={assets.bulb_icon} alt="" />
+              </div>
+
+              <div className="card">
+                <p>Brainstorm team bonding activities for our work retreat</p>
+                <img src={assets.message_icon} alt="" />
+              </div>
+
+              <div className="card">
+                <p>Improve the readability of the following code.</p>
+                <img src={assets.code_icon} alt="" />
+              </div>
+            </div>
+          </>
+        ) : (
+          <div className="result">
+            <div className="result-title">
+              <img src={assets.user_icon} alt="" />
+              <p>{recentPrompt}</p>
+            </div>
+            <div className="result-data">
+              <img src={assets.gemini_icon} alt="" />
+              {loading
+              ?
+            <div className="loader">
+              <hr />
+              <hr />
+              <hr />
+            </div>:
+           <p dangerouslySetInnerHTML={{ __html: resultData }} />
+            }
+            
+
+            </div>
+          </div>
+        )}
+
+        <div className="main-bottom">
+          <div className="search-box">
+            <input
+              onChange={(e) => setInput(e.target.value)}
+              type="text"
+              placeholder="Enter a prompt here"
+            />
+            <div className="div">
+              <img src={assets.gallery_icon} alt="" />
+              <img src={assets.mic_icon_icon} alt="" />
+              <img onClick={() => onSent()} src={assets.send_icon} alt="" />
+            </div>
+          </div>
+          <div className="bottom-info">
+            Gemini may display inaccurate info, including about people, so
+            double check it's response. Your privacy and Gemini Apps
+          </div>
+        </div>
+      </div> */}

@@ -1,0 +1,100 @@
+/* Overlay and Popup Layout */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+  
+  .popup.weight-popup {
+    background: #111827; /* Dark Blue-Black */
+    padding: 30px;
+    border-radius: 12px;
+    width: 500px;
+    max-width: 90%;
+    margin: 100px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: #E5E7EB; /* Light gray text */
+  }
+  
+  .popup h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    margin-bottom: 20px;
+    background: #1F2937; /* Slightly lighter dark bg */
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Total Weight Info */
+  .total-weight {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .note-text {
+    color: #F87171; /* Red alert */
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Stock weight input list */
+  .stock-weight-list {
+    margin-bottom: 20px;
+  }
+  .weight-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .weight-row span:first-child {
+    flex: 1;
+  }
+  .weight-row input {
+    width: 60px;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 6px;
+    border: 1px solid #374151;
+    background: #1F2937;
+    color: white;
+  }
+  
+  /* Buttons */
+  .action-button {
+    width: 100%;
+    padding: 12px;
+    background: #00C49F;
+    color: #111827;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 10px;
+  }
+  .action-button:disabled {
+    background: #4B5563;
+    cursor: not-allowed;
+  }
+  .close-button {
+    background: transparent;
+    border: none;
+    color: #9CA3AF;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Tooltip Customization (for Recharts tooltip) */
+  .recharts-tooltip-wrapper {
+    font-size: 12px;
+  }
+  

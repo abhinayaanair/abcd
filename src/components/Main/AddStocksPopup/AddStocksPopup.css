@@ -1,0 +1,134 @@
+.add-stocks-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #121827;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+  }
+  
+  .add-stocks-popup h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin: 1rem 0;
+    position: relative;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    background: #2a2f45;
+    color: #fff;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #1d2233;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #2e354c;
+  }
+  
+  .result-item:hover {
+    background-color: #2e354c;
+  }
+  
+  .result-item span {
+    flex: 1;
+  }
+  
+  .result-item button {
+    background-color: #2d72fc;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .result-item button.added {
+    background-color: #3b3f52;
+    cursor: default;
+  }
+  
+  .selected-stocks {
+    margin-bottom: 1rem;
+  }
+  
+  .stock-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2538;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+  }
+  
+  .stock-row span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .stock-row .remove-btn {
+    background-color: #e84141;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .bottom-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+  }
+  
+  .bottom-bar button {
+    padding: 0.8rem 1.2rem;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .note-text {
+    font-size: 0.85rem;
+    color: #ff4c4c;
+    margin-top: 0.5rem;
+  }
+  
